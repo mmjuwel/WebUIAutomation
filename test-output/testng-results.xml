@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-26T16:59:57 BDT" name="Default suite" finished-at="2023-03-26T17:00:08 BDT" duration-ms="10771">
+    <groups>
+      <group name="regression">
+        <method signature="RechargeTest.recharge(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.RechargeTest@9d200de]" name="recharge" class="TestCases.RechargeTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2023-03-26T16:59:57 BDT" name="Default test" finished-at="2023-03-26T17:00:08 BDT" duration-ms="10771">
+      <class name="TestCases.RechargeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.RechargeTest@9d200de]" started-at="2023-03-26T16:59:57 BDT" name="setUp" finished-at="2023-03-26T17:00:04 BDT" duration-ms="6588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="recharge(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.RechargeTest@9d200de]" started-at="2023-03-26T17:00:05 BDT" name="recharge" data-provider="Recharge" finished-at="2023-03-26T17:00:06 BDT" duration-ms="1082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[01900000001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@xyz.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recharge -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.RechargeTest@9d200de]" started-at="2023-03-26T17:00:06 BDT" name="tearDown" finished-at="2023-03-26T17:00:06 BDT" duration-ms="333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=recharge status=SUCCESS method=RechargeTest.recharge(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.RechargeTest@9d200de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="recharge(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.RechargeTest@9d200de]" started-at="2023-03-26T17:00:06 BDT" name="recharge" data-provider="Recharge" finished-at="2023-03-26T17:00:07 BDT" duration-ms="965" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[01900000002]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[51]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@xyz.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recharge -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.RechargeTest@9d200de]" started-at="2023-03-26T17:00:07 BDT" name="tearDown" finished-at="2023-03-26T17:00:07 BDT" duration-ms="86" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=recharge status=SUCCESS method=RechargeTest.recharge(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.RechargeTest@9d200de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="recharge(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.RechargeTest@9d200de]" started-at="2023-03-26T17:00:07 BDT" name="recharge" data-provider="Recharge" finished-at="2023-03-26T17:00:08 BDT" duration-ms="968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[01900000003]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[52]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc@xyz.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recharge -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:TestCases.RechargeTest@9d200de]" started-at="2023-03-26T17:00:08 BDT" name="tearDown" finished-at="2023-03-26T17:00:08 BDT" duration-ms="87" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=recharge status=SUCCESS method=RechargeTest.recharge(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.RechargeTest@9d200de] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestCases.RechargeTest@9d200de]" started-at="2023-03-26T17:00:08 BDT" name="CloseBrowser" finished-at="2023-03-26T17:00:10 BDT" duration-ms="1535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestCases.RechargeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
